@@ -10,7 +10,7 @@ const todayMonth = d.getMonth() + 1;
 
 container.forEach((aktualElement) => {
   aktualElement.addEventListener('click', (e) => {
-    if (aktualElement.id == today && todayMonth == 11) {
+    if (aktualElement.id == today && todayMonth == 12) {
       for (let i = 0; i < container.length; i++) {
         container[i].classList.toggle('nonvisible');
 
